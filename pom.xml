@@ -39,9 +39,9 @@
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.11</version>
-                <configuration>
+<!--                 <configuration>
                     <skip>true</skip>
-                </configuration>
+                </configuration> -->
                 <executions>
                     <execution>
                         <id>unit-tests</id>
@@ -427,7 +427,7 @@
                         <version>${cobertura.version}</version>
                         <configuration>
                             <formats>
-                                <format>html</format>
+<!--                                 <format>html</format> -->
                                 <format>xml</format>
                             </formats>
                         </configuration>
